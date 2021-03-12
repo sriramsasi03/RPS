@@ -1,0 +1,45 @@
+.center{
+    text-align: center;
+    color: azure;
+}
+body {
+    background-image: url("rockpaperscir.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.imageee1 {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    width: 128px;
+    height: 128px;
+}
+.imageee2 {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    width: 128px;
+    height: 128px;
+}
+.button {
+    background-color: #505f6ea9;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 150px;
+}
+.button:hover {
+    background-color: #ffffff00; /* Green */
+    color: white;
+}
+  
