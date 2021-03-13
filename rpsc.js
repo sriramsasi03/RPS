@@ -56,7 +56,7 @@ function clickscissors(){
     displaywinner();
 }
 function displaywinner(){
-    if(compscore==5)document.getElementById('winner').innerHTML="<b>OOPS! Computer Won Get Luck next time</b>";
+    if(compscore==5)document.getElementById('winner').innerHTML="<b>OOPS! Computer Won, Better Luck next time</b>";
     else if(userscore==5)
     document.getElementById('winner').innerHTML="<b>Yay! U won the game</b>";
     if(compscore==5||userscore==5){
