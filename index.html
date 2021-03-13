@@ -7,9 +7,9 @@
 <h1 class="center">ROCK PAPER SCISSRORS</h1>
 <h3 class="center">Select one<br></h3>
 <div style="padding-left: 520px;">
-    <button  class="button">ROCK</button>
-    <button  class="button">PAPER</button>
-    <button  class="button">SCIRRORS</button>
+    <button onclick="clickrock()" class="button">ROCK</button>
+    <button onclick="clickpaper()" class="button">PAPER</button>
+    <button onclick="clickscissors()" class="button">SCIRRORS</button>
 </div>
 <div  style="padding-left: 500px;">
     
@@ -18,7 +18,19 @@
     
     
 </div>
-<pre class="center" style="font-size: large;">YOU                        COMP</pre>
-
+<div style="padding-left: 510px;padding-top: 15px;">
+  <table>
+    <tr>
+      <th>User</th>
+      <th>Computer</th>
+    </tr>
+    <tr>
+      <td id="userans">0</td>
+      <td id="compans">0</td>
+    </tr>
+    
+  </table>
+</div>
+<script src="rpsc.js"></script>
 </body>
 </html>

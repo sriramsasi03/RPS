@@ -39,7 +39,19 @@ body {
     width: 150px;
 }
 .button:hover {
-    background-color: #ffffff00; /* Green */
+    background-color: #ffffff00;
     color: white;
+}
+table, th, td{
+    color: blanchedalmond;
+    font-size: large;
+}
+th, td {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+td{
+    padding-top: 10px;
 }
   
