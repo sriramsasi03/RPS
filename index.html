@@ -5,16 +5,16 @@
 </head>
 <body>
 <h1 class="center">ROCK PAPER SCISSRORS</h1>
-<h3 class="center">Select one<br></h3>
+<h3 class="center">Select One<br></h3>
 <div style="padding-left: 520px;">
-    <button onclick="clickrock()" class="button">ROCK</button>
-    <button onclick="clickpaper()" class="button">PAPER</button>
-    <button onclick="clickscissors()" class="button">SCIRRORS</button>
+    <button id="b1" onclick="clickrock()" class="button">ROCK</button>
+    <button id="b2" onclick="clickpaper()" class="button">PAPER</button>
+    <button id="b3" onclick="clickscissors()" class="button">SCISSORS</button>
 </div>
 <div  style="padding-left: 500px;">
     
     <img class="imageee1" id ="user"src="rock.jpg">
-    <img class="imageee2"id="comp"src="rock.jpg">
+    <img class="imageee2"id="comp"src="rock_1.jpg">
     
     
 </div>
@@ -31,6 +31,7 @@
     
   </table>
 </div>
+<p id="winner" class="center" style="font-size: xx-large;"></p>
 <script src="rpsc.js"></script>
 </body>
 </html>
