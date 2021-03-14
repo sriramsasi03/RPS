@@ -1,6 +1,9 @@
 var userscore=0;
 var compscore=0;
 var compguess;
+function removerule(){
+    document.getElementById('rule').innerHTML=' ';
+}
 function displaycomp(){
     compguess=Math.floor(Math.random()*3);
     if(compguess==0)document.getElementById('comp').src='rock_1.jpg';
@@ -14,6 +17,7 @@ function updateuserscore(){
     document.getElementById('userans').innerHTML=userscore;
 }
 function clickrock(){
+    removerule();
     displaycomp();
     document.getElementById('user').src='rock.jpg';
     if(compguess==0&&compscore<5&&userscore<5);
@@ -28,6 +32,7 @@ function clickrock(){
     displaywinner();
 }
 function clickpaper(){
+    removerule();
     displaycomp();
     document.getElementById('user').src='paper.jpg';
     if(compguess==1&&compscore<5&&userscore<5);
@@ -42,6 +47,7 @@ function clickpaper(){
     displaywinner();
 }
 function clickscissors(){
+    removerule();
     displaycomp();
     document.getElementById('user').src='scissors_1.jpg';
     if(compguess==2&&compscore<5&&userscore<5);
