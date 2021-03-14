@@ -10,19 +10,24 @@ body {
 }
 .imageee1 {
     padding-top: 50px;
-    padding-right: 30px;
+    
     padding-bottom: 10px;
-    padding-left: 70px;
+    
     width: 128px;
     height: 128px;
+    display: inline-block;
+    
+
 }
 .imageee2 {
     padding-top: 50px;
-    padding-right: 30px;
+    padding-left: 60px;
     padding-bottom: 10px;
-    padding-left: 80px;
+    
     width: 128px;
     height: 128px;
+    display: inline-block;
+    
 }
 .button {
     background-color: #505f6ea9;
@@ -47,11 +52,16 @@ table, th, td{
     font-size: large;
 }
 th, td {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 60px;
     text-align: center;
 }
 td{
     padding-top: 10px;
+    margin-right: auto;
+}
+table.tcenter{
+    margin-left: auto;
+    margin-right: auto;
 }
   
