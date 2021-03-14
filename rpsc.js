@@ -4,6 +4,9 @@ var compguess;
 function removerule(){
     document.getElementById('rule').innerHTML=' ';
 }
+function addrule(){
+    document.getElementById('rule').innerHTML='RULEs: If the computer or user gets 5 points they win, Have fun playing the game';
+}
 function displaycomp(){
     compguess=Math.floor(Math.random()*3);
     if(compguess==0)document.getElementById('comp').src='rock_1.jpg';
@@ -80,4 +83,5 @@ function clickRestart(){
     document.getElementById("b2").disabled = false;
     document.getElementById("b3").disabled = false;
     document.getElementById('winner').innerHTML=" ";
+    addrule();
 }
