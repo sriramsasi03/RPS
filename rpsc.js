@@ -65,3 +65,13 @@ function displaywinner(){
         document.getElementById("b3").disabled = true;
     }
 }
+function clickRestart(){
+    compscore=0;
+    userscore=0;
+    updatecompscore();
+    updateuserscore();
+    document.getElementById("b1").disabled = false;
+    document.getElementById("b2").disabled = false;
+    document.getElementById("b3").disabled = false;
+    document.getElementById('winner').innerHTML=" ";
+}
